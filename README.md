@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# DGT2823 - Trabalho Pratico
 
-# Run and deploy your AI Studio app
+Trabalho pratico da disciplina DGT2823 - Tecnologias para desenv. de solucoes
+de big data. Exercicios de manipulacao e limpeza de dados usando a biblioteca
+pandas (Python).
 
-This contains everything you need to run your app locally.
+## Arquivos
 
-View your app in AI Studio: https://ai.studio/apps/01cdd24e-7662-4d80-a226-5b5cdefe2f50
+- `data.csv` - conjunto de dados fornecido no enunciado
+- `microatividades.py` - microatividades 1 a 5 (leitura, subset, max_rows,
+  head/tail, info)
+- `pratica_pandas.py` - trabalho pratico (limpeza e conversao da coluna Date)
 
-## Run Locally
+## Como rodar
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```
+pip install pandas
+python microatividades.py
+python pratica_pandas.py
+```
